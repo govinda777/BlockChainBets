@@ -1,0 +1,86 @@
+Para criar uma aplicação blockchain agnóstica que funcione com múltiplas carteiras, você pode adaptar seu prompt da seguinte forma:
+
+# Prompt para Criação de Aplicação Blockchain - OpenLotteryConnect
+
+Estou desenvolvendo uma prova de conceito para meus estudos em blockchain chamada **OpenLotteryConnect** e preciso de sua ajuda para criar uma aplicação funcional e agnóstica em relação a blockchains.
+
+## Sobre o Projeto
+
+OpenLotteryConnect é um protocolo descentralizado que permite que pessoas apostem e criem suas próprias apostas na Web3, funcionando com múltiplas blockchains e carteiras. O sistema deve funcionar como uma plataforma transparente onde:
+
+- **Apostadores** podem participar de diversas modalidades de apostas
+- **Casas de apostas** podem criar e gerenciar eventos
+- **Especialistas** podem fornecer previsões e análises
+- Tudo registrado de forma transparente em qualquer blockchain compatível
+
+## Principais Funcionalidades Desejadas
+
+- Sistema de apostas peer-to-peer sem intermediários
+- Smart contracts agnósticos que funcionem em múltiplas blockchains
+- Interface amigável e responsiva
+- Suporte a múltiplas carteiras (MetaMask, WalletConnect, Phantom, Exodus, etc.)
+- Dashboard para acompanhamento de apostas e resultados
+- Sistema de reputação para tipsters e bookmakers
+
+## Estrutura de Usuários
+
+O sistema deve contemplar diferentes papéis:
+- **Apostadores**: usuários que realizam apostas
+- **Casas/Criadores**: entidades que criam eventos e definem odds
+- **Especialistas**: fornecem análises e previsões
+- **Traders**: realizam operações de compra/venda de apostas
+
+## Referências Técnicas
+
+Gostaria de usar uma stack moderna com:
+- Vite + React para o frontend
+- Suporte a múltiplas blockchains através de protocolos agnósticos
+- Sistema de smart contracts adaptáveis a diferentes redes
+- Integração com diversas carteiras (MetaMask, WalletConnect, Coinbase Wallet, Phantom, Exodus)
+- Armazenamento descentralizado para histórico de apostas
+
+Você poderia me ajudar a desenvolver esta prova de conceito, detalhando a arquitetura, os componentes principais e como implementar as funcionalidades essenciais de forma agnóstica em relação às blockchains?
+
+Citations:
+[1] https://ppl-ai-file-upload.s3.amazonaws.com/web/direct-files/attachments/61929226/ffa6d5f3-74c9-4725-8ac6-c6e7dd1b5fdb/paste.txt
+[2] https://slashdot.org/software/p/TON/alternatives
+[3] https://www.zeebu.com/blog/multi-wallet-support-on-zeebu-fi
+[4] https://unchainedcrypto.com/blockchain-agnostic-protocols/
+[5] https://rocknblock.io/blog/decentralized-betting-platform-development-essentials
+[6] https://www.waivio.com/@naveen18/bet-protocol-token-overview
+[7] https://www.tradingview.com/news/cointelegraph:5907a55e5094b:0-tons-of-options-5-crypto-wallets-that-support-ton-blockchain/
+[8] https://www.kucoin.com/learn/web3/top-10-ton-wallets-for-the-open-network-ecosystem
+[9] https://www.coingecko.com/learn/top-ton-wallets-jettons-crypto
+[10] https://brave.com/web3/multi-chain-wallet/
+[11] https://www.gate.io/learn/articles/what-is-a-blockchain-agnostic-protocol/1085
+[12] https://docs.ton.org/v3/concepts/dive-into-ton/go-from-ethereum/difference-of-blockchains/
+[13] https://www.bitpanda.com/academy/en/lessons/what-are-multi-signature-wallets-and-how-do-they-work
+[14] https://thresh0ld.com/why-a-blockchain-agnostic-wallet-is-the-prop-your-business-needs/
+[15] https://zert.com/blogs/metamask-alternatives-6-other-defi-crypto-wallets-to-consider
+[16] https://blog.1inch.io/a-unified-interface-for-multiple-wallets-chains-and-protocols/
+[17] https://chain.link/education-hub/blockchain-agnostic
+[18] https://flagship.fyi/outposts/blockchains/comparison-of-ton-vs-other-blockchains/
+[19] https://www.binance.com/en/web3wallet
+[20] https://cryptoapis.io/blog/76-the-importance-of-offering-a-blockchain-agnostic-crypto-wallet
+[21] https://metamask.io
+[22] https://defiprime.com/prediction-markets
+[23] https://dppc.recife.pe.gov.br/mynewsnow_bmdppc.php?id=blockchain+bets+app
+[24] https://kriptomat.io/cryptocurrency-prices/band-protocol-band-price/what-is/
+[25] https://ethglobal.com/showcase/grail-market-53egz
+[26] https://www.webopedia.com/best-crypto-wallets-for-gambling-a-technical-overview/
+[27] https://symbiosis.finance
+[28] https://www.avax.network/blog/avacloud-unveils-eerc-token-standard
+[29] https://evacodes.com/work/betero
+[30] https://www.gate.io/learn/articles/blockchain-agnostic/1022
+[31] https://www.axelar.network
+[32] https://tatum.io/blog/blockchain-wallets-toncoin-ton
+[33] https://www.nerdwallet.com/p/best/investing/crypto-bitcoin-wallets
+[34] https://www.adspower.com/blog/how-to-manage-multiple-crypto-wallets-the-ultimate-guide
+[35] https://hackernoon.com/how-to-simplify-multi-wallet-integration-for-your-dapps
+[36] https://www.cyfrin.io/blog/how-to-set-up-a-safe-multi-sig-wallet-step-by-step-guide
+[37] https://www.rapidinnovation.io/post/cryptocurrency-wallet-security-best-practices-and-tips
+[38] https://sdlccorp.com/post/cross-chain-trading-on-decentralized-exchanges-how-it-works/
+[39] https://www.bitcoin.com/wallet/multichain/
+
+---
+Resposta do Perplexity: pplx.ai/share
