@@ -21,7 +21,6 @@ import {
 import { Input } from "@/components/ui/input";
 import { Textarea } from "@/components/ui/textarea";
 import { Button } from "@/components/ui/button";
-import WalletConnector from "@/components/wallet/WalletConnector";
 import {
   Select,
   SelectContent,
@@ -39,6 +38,7 @@ import {
   PLATFORM_FEES,
   MIN_EVENT_CREATION_AMOUNT,
 } from "@/lib/constants";
+import WalletConnector from "@/components/wallet/WalletConnector";
 
 // Validation schema for event creation
 const eventSchema = z.object({
