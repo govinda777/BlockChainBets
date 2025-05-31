@@ -23,3 +23,25 @@ This currently blocks the standard Foundry workflow for managing external depend
 **Next Steps:**
 
 The development of `BettingSystem.sol` will proceed, attempting to manually include necessary code from OpenZeppelin (like `IERC20.sol` and `SafeERC20.sol`) or by simplifying the contract to reduce external dependencies if manual inclusion proves too complex under these constraints.
+
+
+## BettingSystem.sol Contract Overview
+
+The `BettingSystem.sol` smart contract is the core on-chain component for the BlockchainBets platform. It allows users to place bets on various events and records these bets on the blockchain.
+
+**Key Features:**
+
+*   **Bet Placement:** Users can place bets on specific events by calling the `placeBet` function.
+*   **Native Currency:** Currently, bets are placed using the native currency of the blockchain (e.g., ETH on Base Chain). The `placeBet` function is `payable`.
+*   **Bet Storage:** Each bet, represented by a `Bet` struct (containing user address, amount, event ID, and a metadata CID), is stored in a mapping `bets` where the key is the `eventId`.
+*   **Event Emission:** Upon successful bet placement, a `NewBet` event is emitted. This event includes details of the bet and can be used by off-chain services for indexing and tracking.
+*   **Metadata:** Each bet includes a `metadataCID` (Content ID for IPFS). This CID points to a JSON object stored on IPFS that can contain further details about the bet, such as the specific outcome the user is betting on, odds at the time of the bet, etc.
+*   **Bet Retrieval:** A helper function `getBetsByEventId(bytes32 eventId)` allows retrieval of all bets placed on a specific event.
+
+**Current Implementation Details:**
+
+*   The contract is written in Solidity ^0.8.20.
+*   It utilizes manually vendored OpenZeppelin contracts for `IERC20` and `SafeERC20` interfaces/libraries (though `SafeERC20` is not actively used in the current native currency betting logic). This manual inclusion was necessary due to the dependency installation challenges detailed below.
+*   Comprehensive NatSpec documentation is included within the contract code for better understanding and maintainability.
+
+This contract serves as the foundation for recording bets. Future enhancements could include support for ERC20 token bets, automated event resolution, and prize distribution mechanisms.
