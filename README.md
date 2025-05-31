@@ -107,6 +107,7 @@ BlockChainBets/
 ### 1. Instalação Geral (Frontend & Backend Server)
 
 1. **Clone o repositório**
+
    ```bash
    git clone https://github.com/govinda777/BlockChainBets.git # (Substituir pela URL correta do repo, se diferente)
    cd BlockChainBets
@@ -166,6 +167,29 @@ BlockChainBets/
    O deploy de smart contracts para produção é um processo separado, geralmente usando `forge script` ou `forge create` e gerenciando chaves privadas de forma segura.
 
 ## API Endpoints (Servidor de Apoio)
+
+```bash
+git clone https://github.com/govinda777/BlockChainBets.git
+cd BlockChainBets
+```
+
+2. **Instale as dependências**
+```bash
+npm install
+```
+
+3. **Execute em modo desenvolvimento**
+```bash
+npm run dev
+```
+
+4. **Para produção**
+```bash
+npm run build
+npm start
+```
+
+## API Endpoints
 
 ### Usuários
 - `POST /api/users` - Criar usuário
