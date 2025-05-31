@@ -18,7 +18,7 @@ BlockChainBets é uma aplicação descentralizada (dApp) de apostas agnóstica e
 ### Backend
 - **Express.js** com TypeScript para API REST
 - **Drizzle ORM** para manipulação de banco de dados
-- **PostgreSQL** como banco de dados principal
+- **Filecoin / IPFS** como banco de dados principal
 - **Zod** para validação de esquemas
 - **WebSockets** para comunicação em tempo real
 - **Passport.js** para autenticação
@@ -92,7 +92,6 @@ BlockChainBets/
 
 ### Pré-requisitos
 - Node.js 18+ 
-- PostgreSQL
 - Carteira digital compatível (MetaMask, etc.)
 
 ### Instalação
