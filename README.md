@@ -24,14 +24,6 @@ A plataforma permite que usuários conectem suas carteiras digitais, visualizem 
 - **BettingSystem.sol**: Contrato principal para lógica de apostas (detalhes em `contracts/README.md`)
 - **OpenZeppelin Contracts**: Utilizados para padrões de segurança e interfaces (vendored manualmente)
 
-### Backend (Servidor de Apoio e APIs)
-- **Express.js** com TypeScript: Para funcionalidades que não são puramente on-chain (ex: gerenciamento de conteúdo, dados de usuário não sensíveis).
-- **Drizzle ORM**: Para interação com banco de dados PostgreSQL.
-- **PostgreSQL**: Banco de dados para dados de aplicação gerenciados pelo servidor.
-- **Zod**: Validação de esquemas.
-- **WebSockets**: Para comunicação em tempo real (se aplicável).
-- **Passport.js**: Para autenticação (se aplicável a serviços centralizados).
-
 ### Serviços Descentralizados e Off-Chain
 - **IPFS**: Armazenamento de metadados de apostas (JSON objects linkados por CID no smart contract).
 - **The Graph**: Indexação de eventos do smart contract (`NewBet`) para consultas eficientes pelo frontend.
