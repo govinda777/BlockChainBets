@@ -107,21 +107,12 @@ cd BlockChainBets
 npm install
 ```
 
-3. **Configure o banco de dados**
-```bash
-# Configure a variável de ambiente DATABASE_URL
-export DATABASE_URL="postgresql://user:password@localhost:5432/blockchainbets"
-
-# Execute as migrações
-npm run db:push
-```
-
-4. **Execute em modo desenvolvimento**
+3. **Execute em modo desenvolvimento**
 ```bash
 npm run dev
 ```
 
-5. **Para produção**
+4. **Para produção**
 ```bash
 npm run build
 npm start
