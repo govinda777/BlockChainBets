@@ -99,7 +99,6 @@ BlockChainBets/
 ### 1. Instalação Geral (Frontend & Backend Server)
 
 1. **Clone o repositório**
-
    ```bash
    git clone https://github.com/govinda777/BlockChainBets.git # (Substituir pela URL correta do repo, se diferente)
    cd BlockChainBets
